@@ -23,7 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: REUSE linter
-        uses: fsfe/reuse-action@v2
+        uses: fsfe/reuse-action@v3
         with:
           args: lint
       - name: Setup go
